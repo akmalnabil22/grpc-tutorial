@@ -1,0 +1,7 @@
+C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-6eaf4424f252c23e/out/build/CMakeFiles/libprotobuf-lite.dir
+C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-6eaf4424f252c23e/out/build/CMakeFiles/libprotobuf.dir
+C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-6eaf4424f252c23e/out/build/CMakeFiles/libprotoc.dir
+C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-6eaf4424f252c23e/out/build/CMakeFiles/protoc.dir
+C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-6eaf4424f252c23e/out/build/CMakeFiles/INSTALL.dir
+C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-6eaf4424f252c23e/out/build/CMakeFiles/ALL_BUILD.dir
+C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-6eaf4424f252c23e/out/build/CMakeFiles/ZERO_CHECK.dir

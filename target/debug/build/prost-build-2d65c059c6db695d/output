@@ -1,0 +1,784 @@
+cargo:rerun-if-changed=C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\cmake
+CMAKE_TOOLCHAIN_FILE_x86_64-pc-windows-msvc = None
+CMAKE_TOOLCHAIN_FILE_x86_64_pc_windows_msvc = None
+HOST_CMAKE_TOOLCHAIN_FILE = None
+CMAKE_TOOLCHAIN_FILE = None
+CMAKE_GENERATOR_x86_64-pc-windows-msvc = None
+CMAKE_GENERATOR_x86_64_pc_windows_msvc = None
+HOST_CMAKE_GENERATOR = None
+CMAKE_GENERATOR = None
+CMAKE_PREFIX_PATH_x86_64-pc-windows-msvc = None
+CMAKE_PREFIX_PATH_x86_64_pc_windows_msvc = None
+HOST_CMAKE_PREFIX_PATH = None
+CMAKE_PREFIX_PATH = None
+CMAKE_x86_64-pc-windows-msvc = None
+CMAKE_x86_64_pc_windows_msvc = None
+HOST_CMAKE = None
+CMAKE = None
+running: "cmake" "C:\\Users\\rizki\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\prost-build-0.10.4\\third-party\\protobuf\\cmake" "-G" "Visual Studio 17 2022" "-Thost=x64" "-Ax64" "-Dprotobuf_BUILD_TESTS=OFF" "-DCMAKE_INSTALL_PREFIX=C:\\Semester 4\\progjut\\grpc-tutorial\\target\\debug\\build\\prost-build-2d65c059c6db695d\\out" "-DCMAKE_C_FLAGS= -nologo -MD -Brepro" "-DCMAKE_C_FLAGS_DEBUG= -nologo -MD -Brepro" "-DCMAKE_CXX_FLAGS= -nologo -MD -Brepro" "-DCMAKE_CXX_FLAGS_DEBUG= -nologo -MD -Brepro" "-DCMAKE_ASM_FLAGS= -nologo -MD -Brepro" "-DCMAKE_ASM_FLAGS_DEBUG= -nologo -MD -Brepro" "-DCMAKE_BUILD_TYPE=Debug"
+-- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.22631.
+-- The C compiler identification is MSVC 19.43.34809.0
+-- The CXX compiler identification is MSVC 19.43.34809.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- 
+-- 3.19.4.0
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Could NOT find ZLIB (missing: ZLIB_LIBRARY ZLIB_INCLUDE_DIR) 
+-- Configuring done (9.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/build
+running: "cmake" "--build" "C:\\Semester 4\\progjut\\grpc-tutorial\\target\\debug\\build\\prost-build-2d65c059c6db695d\\out\\build" "--target" "install" "--config" "Debug" "--parallel" "12"
+MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/cmake/CMakeLists.txt
+  Building Custom Rule C:/Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/cmake/CMakeLists.txt
+  any_lite.cc
+  arena.cc
+  arenastring.cc
+  extension_set.cc
+  generated_enum_util.cc
+  generated_message_table_driven_lite.cc
+  generated_message_tctable_lite.cc
+  generated_message_util.cc
+  implicit_weak_message.cc
+  inlined_string_field.cc
+  coded_stream.cc
+  io_win32.cc
+  any_lite.cc
+  arena.cc
+  arenastring.cc
+  extension_set.cc
+  generated_enum_util.cc
+  generated_message_table_driven_lite.cc
+  generated_message_tctable_lite.cc
+  generated_message_util.cc
+  implicit_weak_message.cc
+  inlined_string_field.cc
+  coded_stream.cc
+  io_win32.cc
+  strtod.cc
+  strtod.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(903,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf-lite.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/io/io_win32.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(903,9):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\io\io_win32.cc(203,14):
+          see reference to function template instantiation 'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::operator <<<wchar_t,std::char_traits<wchar_t>>(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &,_Elem)' being compiled
+          with
+          [
+              _Elem=wchar_t
+          ]
+  
+  zero_copy_stream.cc
+  zero_copy_stream_impl.cc
+  zero_copy_stream.cc
+  zero_copy_stream_impl.cc
+  zero_copy_stream_impl_lite.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(903,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/io/io_win32.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(903,9):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\io\io_win32.cc(203,14):
+          see reference to function template instantiation 'std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::operator <<<wchar_t,std::char_traits<wchar_t>>(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &,_Elem)' being compiled
+          with
+          [
+              _Elem=wchar_t
+          ]
+  
+  map.cc
+  message_lite.cc
+  zero_copy_stream_impl_lite.cc
+  map.cc
+  parse_context.cc
+  message_lite.cc
+  parse_context.cc
+  repeated_field.cc
+  repeated_field.cc
+  repeated_ptr_field.cc
+  bytestream.cc
+  repeated_ptr_field.cc
+  bytestream.cc
+  common.cc
+  common.cc
+  int128.cc
+  int128.cc
+  status.cc
+  status.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(551,13): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(551,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc(304,3):
+          see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(543,39):
+          while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::write(const _Elem *,std::streamsize)'
+          with
+          [
+              _Elem=char
+          ]
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc(304,17):
+              see the first reference to 'std::basic_ostream<char,std::char_traits<char>>::write' in 'google::protobuf::io::OstreamOutputStream::CopyingOstreamOutputStream::Write'
+  
+  statusor.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_string_view.hpp(538,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/stubs/status.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_string_view.hpp(538,9):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\stubs\status.cc(127,6):
+          see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::allocator<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3410,12):
+          see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::_Insert_string<char,std::char_traits<char>,unsigned __int64>(std::basic_ostream<char,std::char_traits<char>> &,const _Elem *const ,const _SizeT)' being compiled
+          with
+          [
+              _Elem=char,
+              _SizeT=unsigned __int64
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(551,13): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf-lite.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(551,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc(304,3):
+          see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(543,39):
+          while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::write(const _Elem *,std::streamsize)'
+          with
+          [
+              _Elem=char
+          ]
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc(304,17):
+              see the first reference to 'std::basic_ostream<char,std::char_traits<char>>::write' in 'google::protobuf::io::OstreamOutputStream::CopyingOstreamOutputStream::Write'
+  
+  stringpiece.cc
+  stringprintf.cc
+  statusor.cc
+  structurally_valid.cc
+  strutil.cc
+  time.cc
+  wire_format_lite.cc
+  stringpiece.cc
+  stringprintf.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(383,13): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/stubs/int128.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(383,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\stubs\int128.cc(127,35):
+          see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(376,39):
+          while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\stubs\int128.cc(163,8):
+              see the first reference to 'std::basic_ostream<char,std::char_traits<char>>::operator <<' in 'google::protobuf::operator <<'
+  
+  structurally_valid.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(383,13): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf-lite.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/stubs/int128.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(383,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\stubs\int128.cc(127,35):
+          see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(376,39):
+          while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\stubs\int128.cc(163,8):
+              see the first reference to 'std::basic_ostream<char,std::char_traits<char>>::operator <<' in 'google::protobuf::operator <<'
+  
+  strutil.cc
+  any.cc
+  time.cc
+  any.pb.cc
+  api.pb.cc
+  importer.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_string_view.hpp(538,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf-lite.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/stubs/status.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_string_view.hpp(538,9):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\stubs\status.cc(127,6):
+          see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::allocator<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3410,12):
+          see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::_Insert_string<char,std::char_traits<char>,unsigned __int64>(std::basic_ostream<char,std::char_traits<char>> &,const _Elem *const ,const _SizeT)' being compiled
+          with
+          [
+              _Elem=char,
+              _SizeT=unsigned __int64
+          ]
+  
+  wire_format_lite.cc
+  parser.cc
+  descriptor.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(551,13): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf-lite.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/stubs/stringpiece.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(551,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\stubs\stringpiece.cc(45,3):
+          see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(543,39):
+          while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::write(const _Elem *,std::streamsize)'
+          with
+          [
+              _Elem=char
+          ]
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\stubs\stringpiece.cc(45,10):
+              see the first reference to 'std::basic_ostream<char,std::char_traits<char>>::write' in 'google::protobuf::stringpiece_internal::operator <<'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(551,13): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/stubs/stringpiece.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(551,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\stubs\stringpiece.cc(45,3):
+          see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(543,39):
+          while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::write(const _Elem *,std::streamsize)'
+          with
+          [
+              _Elem=char
+          ]
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\stubs\stringpiece.cc(45,10):
+              see the first reference to 'std::basic_ostream<char,std::char_traits<char>>::write' in 'google::protobuf::stringpiece_internal::operator <<'
+  
+  descriptor.pb.cc
+  descriptor_database.cc
+  duration.pb.cc
+  dynamic_message.cc
+  empty.pb.cc
+  extension_set_heavy.cc
+  field_mask.pb.cc
+  generated_message_bases.cc
+  generated_message_reflection.cc
+  generated_message_table_driven.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1209,17): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/compiler/parser.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1209,17):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\parser.cc(360,35):
+          see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,0>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=std::string,
+              _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::string>>>
+          ]
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\parser.cc(360,41):
+              see the first reference to 'std::vector<std::string,std::allocator<std::string>>::insert' in 'google::protobuf::compiler::Parser::TryConsumeEndOfDeclaration'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1267,13):
+          see reference to function template instantiation 'void std::vector<std::string,std::allocator<std::string>>::_Insert_counted_range<std::basic_string<char,std::char_traits<char>,std::allocator<char>>*>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,const unsigned __int64)' being compiled
+          with
+          [
+              _Ty=std::string,
+              _Iter=std::basic_string<char,std::char_traits<char>,std::allocator<char>> *
+          ]
+  
+  generated_message_tctable_full.cc
+  gzip_stream.cc
+  printer.cc
+  tokenizer.cc
+  map_field.cc
+  message.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1209,17): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/descriptor_database.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1209,17):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\descriptor_database.cc(94,10):
+          see reference to function template instantiation 'bool google::protobuf::`anonymous-namespace'::ForAllFileProtos<google::protobuf::DescriptorDatabase::FindAllPackageNames::<lambda_52fb130612cf058d3109530da0f77a65>>(google::protobuf::DescriptorDatabase *,Fn,std::vector<std::string,std::allocator<std::string>> *)' being compiled
+          with
+          [
+              Fn=google::protobuf::DescriptorDatabase::FindAllPackageNames::<lambda_52fb130612cf058d3109530da0f77a65>
+          ]
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\descriptor_database.cc(86,11):
+          see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,0>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=std::string,
+              _Iter=std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1267,13):
+          see reference to function template instantiation 'void std::vector<std::string,std::allocator<std::string>>::_Insert_counted_range<std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>,std::_Iterator_base0>>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,const unsigned __int64)' being compiled
+          with
+          [
+              _Ty=std::string,
+              _Iter=std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>,std::_Iterator_base0>
+          ]
+  
+  reflection_ops.cc
+  service.cc
+  source_context.pb.cc
+  struct.pb.cc
+  substitute.cc
+  text_format.cc
+  timestamp.pb.cc
+  type.pb.cc
+  unknown_field_set.cc
+  delimited_message_util.cc
+  field_comparator.cc
+  field_mask_util.cc
+  datapiece.cc
+  default_value_objectwriter.cc
+  libprotobuf-lite.vcxproj -> C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\Debug\libprotobuf-lited.lib
+  error_listener.cc
+  field_mask_utility.cc
+  json_escaping.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1209,17): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/unknown_field_set.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1209,17):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\unknown_field_set.cc(97,13):
+          see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert<std::move_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>,0>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=google::protobuf::UnknownField,
+              _Iter=std::move_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<google::protobuf::UnknownField>>>>
+          ]
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\unknown_field_set.cc(97,19):
+              see the first reference to 'std::vector<google::protobuf::UnknownField,std::allocator<google::protobuf::UnknownField>>::insert' in 'google::protobuf::UnknownFieldSet::MergeFromAndDestroy'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1267,13):
+          see reference to function template instantiation 'void std::vector<google::protobuf::UnknownField,std::allocator<google::protobuf::UnknownField>>::_Insert_counted_range<std::move_iterator<google::protobuf::UnknownField *>>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,const unsigned __int64)' being compiled
+          with
+          [
+              _Ty=google::protobuf::UnknownField,
+              _Iter=std::move_iterator<google::protobuf::UnknownField *>
+          ]
+  
+  json_objectwriter.cc
+  json_stream_parser.cc
+  object_writer.cc
+  proto_writer.cc
+  protostream_objectsource.cc
+  protostream_objectwriter.cc
+  type_info.cc
+  utility.cc
+  json_util.cc
+  message_differencer.cc
+  time_util.cc
+  type_resolver_util.cc
+  wire_format.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1209,17): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1209,17):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\util\internal\default_value_objectwriter.cc(326,12):
+          see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,0>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=std::string,
+              _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::string>>>
+          ]
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\util\internal\default_value_objectwriter.cc(326,18):
+              see the first reference to 'std::vector<std::string,std::allocator<std::string>>::insert' in 'google::protobuf::util::converter::DefaultValueObjectWriter::Node::PopulateChildren'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1267,13):
+          see reference to function template instantiation 'void std::vector<std::string,std::allocator<std::string>>::_Insert_counted_range<std::basic_string<char,std::char_traits<char>,std::allocator<char>>*>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,const unsigned __int64)' being compiled
+          with
+          [
+              _Ty=std::string,
+              _Iter=std::basic_string<char,std::char_traits<char>,std::allocator<char>> *
+          ]
+  
+  wrappers.pb.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_string_view.hpp(538,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotobuf.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/util/time_util.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_string_view.hpp(538,9):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\util\time_util.h(255,7):
+          see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::allocator<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3410,12):
+          see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::_Insert_string<char,std::char_traits<char>,unsigned __int64>(std::basic_ostream<char,std::char_traits<char>> &,const _Elem *const ,const _SizeT)' being compiled
+          with
+          [
+              _Elem=char,
+              _SizeT=unsigned __int64
+          ]
+  
+  libprotobuf.vcxproj -> C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\Debug\libprotobufd.lib
+  Building Custom Rule C:/Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/cmake/CMakeLists.txt
+  code_generator.cc
+  command_line_interface.cc
+  cpp_enum.cc
+  cpp_enum_field.cc
+  cpp_extension.cc
+  cpp_field.cc
+  cpp_file.cc
+  cpp_generator.cc
+  cpp_helpers.cc
+  cpp_map_field.cc
+  cpp_message.cc
+  cpp_message_field.cc
+  cpp_padding_optimizer.cc
+  cpp_parse_function_generator.cc
+  cpp_primitive_field.cc
+  cpp_service.cc
+  cpp_string_field.cc
+  csharp_doc_comment.cc
+  csharp_enum.cc
+  csharp_enum_field.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(292,13): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotoc.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/compiler/command_line_interface.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(292,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\command_line_interface.cc(161,10):
+          see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(277,39):
+          while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\command_line_interface.cc(357,43):
+              see the first reference to 'std::basic_ostream<char,std::char_traits<char>>::operator <<' in 'google::protobuf::compiler::CommandLineInterface::ErrorPrinter::AddErrorOrWarning'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1209,17): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotoc.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/compiler/cpp/cpp_message.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1209,17):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\cpp\cpp_message.cc(820,18):
+          see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,0>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=const google::protobuf::FieldDescriptor *,
+              _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<const google::protobuf::FieldDescriptor *>>>
+          ]
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\cpp\cpp_message.cc(820,24):
+              see the first reference to 'std::vector<const google::protobuf::FieldDescriptor *,std::allocator<const google::protobuf::FieldDescriptor *>>::insert' in 'google::protobuf::compiler::cpp::MessageGenerator::GenerateFieldAccessorDeclarations'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1267,13):
+          see reference to function template instantiation 'void std::vector<const google::protobuf::FieldDescriptor *,std::allocator<const google::protobuf::FieldDescriptor *>>::_Insert_counted_range<const google::protobuf::FieldDescriptor**>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,const unsigned __int64)' being compiled
+          with
+          [
+              _Ty=const google::protobuf::FieldDescriptor *,
+              _Iter=const google::protobuf::FieldDescriptor **
+          ]
+  
+  csharp_field_base.cc
+  csharp_generator.cc
+  csharp_helpers.cc
+  csharp_map_field.cc
+  csharp_message.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1209,17): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotoc.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/compiler/cpp/cpp_padding_optimizer.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1209,17):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\cpp\cpp_padding_optimizer.cc(63,13):
+          see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,0>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=const google::protobuf::FieldDescriptor *,
+              _Iter=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<const google::protobuf::FieldDescriptor *>>>
+          ]
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\cpp\cpp_padding_optimizer.cc(63,19):
+              see the first reference to 'std::vector<const google::protobuf::FieldDescriptor *,std::allocator<const google::protobuf::FieldDescriptor *>>::insert' in 'google::protobuf::compiler::cpp::`anonymous-namespace'::FieldGroup::Append'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1267,13):
+          see reference to function template instantiation 'void std::vector<const google::protobuf::FieldDescriptor *,std::allocator<const google::protobuf::FieldDescriptor *>>::_Insert_counted_range<const google::protobuf::FieldDescriptor*const *>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,const unsigned __int64)' being compiled
+          with
+          [
+              _Ty=const google::protobuf::FieldDescriptor *,
+              _Iter=const google::protobuf::FieldDescriptor *const *
+          ]
+  
+  csharp_message_field.cc
+  csharp_primitive_field.cc
+  csharp_reflection_class.cc
+  csharp_repeated_enum_field.cc
+  csharp_repeated_message_field.cc
+  csharp_repeated_primitive_field.cc
+  csharp_source_generator_base.cc
+  csharp_wrapper_field.cc
+  java_context.cc
+  java_doc_comment.cc
+  java_enum.cc
+  java_enum_field.cc
+  java_enum_field_lite.cc
+  java_enum_lite.cc
+  java_extension.cc
+  java_extension_lite.cc
+  java_field.cc
+  java_file.cc
+  java_generator.cc
+  java_generator_factory.cc
+  java_helpers.cc
+  java_kotlin_generator.cc
+  java_map_field.cc
+  java_map_field_lite.cc
+  java_message.cc
+  java_message_builder.cc
+  java_message_builder_lite.cc
+  java_message_field.cc
+  java_message_field_lite.cc
+  java_message_lite.cc
+  java_name_resolver.cc
+  java_primitive_field.cc
+  java_primitive_field_lite.cc
+  java_service.cc
+  java_shared_code_generator.cc
+  java_string_field.cc
+  java_string_field_lite.cc
+  js_generator.cc
+  well_known_types_embed.cc
+  objectivec_enum.cc
+  objectivec_enum_field.cc
+  objectivec_extension.cc
+  objectivec_field.cc
+  objectivec_file.cc
+  objectivec_generator.cc
+  objectivec_helpers.cc
+  objectivec_map_field.cc
+  objectivec_message.cc
+  objectivec_message_field.cc
+  objectivec_oneof.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(569,17): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotoc.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/compiler/objectivec/objectivec_extension.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(569,17):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_extension.cc(52,10):
+          see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(562,39):
+          while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)'
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_extension.cc(54,20):
+              see the first reference to 'std::basic_ostream<char,std::char_traits<char>>::flush' in 'google::protobuf::compiler::objectivec::ExtensionGenerator::ExtensionGenerator'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(569,17): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotoc.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/compiler/objectivec/objectivec_field.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(569,17):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_field.cc(243,8):
+          see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(562,39):
+          while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)'
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_field.cc(244,18):
+              see the first reference to 'std::basic_ostream<char,std::char_traits<char>>::flush' in 'google::protobuf::compiler::objectivec::FieldGenerator::SetExtraRuntimeHasBitsBase'
+  
+  objectivec_primitive_field.cc
+  php_generator.cc
+  plugin.cc
+  plugin.pb.cc
+  python_generator.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(569,17): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotoc.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/compiler/objectivec/objectivec_helpers.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(569,17):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_helpers.cc(135,12):
+          see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(562,39):
+          while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)'
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_helpers.cc(136,22):
+              see the first reference to 'std::basic_ostream<char,std::char_traits<char>>::flush' in 'google::protobuf::compiler::objectivec::`anonymous-namespace'::PrefixModeStorage::is_package_exempted'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(35,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotoc.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/compiler/objectivec/objectivec_generator.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(35,9):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_generator.cc(231,19):
+          see reference to function template instantiation 'std::basic_istream<char,std::char_traits<char>> &std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(85,17):
+          see reference to function template instantiation 'std::basic_istream<char,std::char_traits<char>> &std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const _Elem)' being compiled
+          with
+          [
+              _Elem=char
+          ]
+  
+  ruby_generator.cc
+  subprocess.cc
+  zip_writer.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(781,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotoc.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/compiler/plugin.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(781,9):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\plugin.cc(163,15):
+          see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)' being compiled
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(292,13): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotoc.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/compiler/php/php_generator.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(292,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\php\php_generator.cc(434,22):
+          see reference to class template instantiation 'std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\sstream(731,36):
+          see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(277,39):
+          while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\php\php_generator.cc(435,6):
+              see the first reference to 'std::basic_ostream<char,std::char_traits<char>>::operator <<' in 'google::protobuf::compiler::php::`anonymous-namespace'::IntToString'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(265,13): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\libprotoc.vcxproj]
+  (compiling source file '../../../../../../../../../Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/src/google/protobuf/compiler/ruby/ruby_generator.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(265,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\ruby\ruby_generator.cc(149,26):
+          see reference to class template instantiation 'std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\sstream(731,36):
+          see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(258,39):
+          while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+              C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\ruby\ruby_generator.cc(161,14):
+              see the first reference to 'std::basic_ostream<char,std::char_traits<char>>::operator <<' in 'google::protobuf::compiler::ruby::DefaultValueForField'
+  
+  libprotoc.vcxproj -> C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\Debug\libprotocd.lib
+  Building Custom Rule C:/Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/cmake/CMakeLists.txt
+  main.cc
+  protoc.vcxproj -> C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\Debug\protoc.exe
+  Building Custom Rule C:/Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/cmake/CMakeLists.txt
+  1>
+  -- Install configuration: "Debug"
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/lib/libprotobuf-lited.lib
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/lib/libprotobufd.lib
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/lib/libprotocd.lib
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/bin/protoc.exe
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/lib/pkgconfig/protobuf.pc
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/lib/pkgconfig/protobuf-lite.pc
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/any.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/any.pb.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/api.pb.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/arena.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/arena_impl.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/arenastring.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/code_generator.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/command_line_interface.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/cpp/cpp_file.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/cpp/cpp_generator.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/cpp/cpp_helpers.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/cpp/cpp_names.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/csharp/csharp_doc_comment.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/csharp/csharp_generator.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/csharp/csharp_names.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/csharp/csharp_options.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/importer.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/java/java_generator.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/java/java_kotlin_generator.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/java/java_names.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/js/js_generator.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/objectivec/objectivec_generator.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/objectivec/objectivec_helpers.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/parser.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/php/php_generator.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/plugin.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/plugin.pb.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/python/python_generator.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/ruby/ruby_generator.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/descriptor.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/descriptor.pb.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/descriptor_database.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/duration.pb.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/dynamic_message.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/empty.pb.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/explicitly_constructed.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/extension_set.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/extension_set_inl.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/field_access_listener.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/field_mask.pb.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/generated_enum_reflection.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/generated_enum_util.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/generated_message_bases.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/generated_message_reflection.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/generated_message_table_driven.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/generated_message_table_driven_lite.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/generated_message_tctable_decl.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/generated_message_tctable_impl.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/generated_message_tctable_impl.inc
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/generated_message_util.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/has_bits.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/implicit_weak_message.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/inlined_string_field.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/io/coded_stream.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/io/gzip_stream.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/io/io_win32.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/io/printer.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/io/strtod.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/io/tokenizer.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/io/zero_copy_stream.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/io/zero_copy_stream_impl.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/io/zero_copy_stream_impl_lite.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/map.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/map_entry.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/map_entry_lite.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/map_field.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/map_field_inl.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/map_field_lite.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/map_type_handler.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/message.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/message_lite.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/metadata.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/metadata_lite.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/parse_context.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/port.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/port_def.inc
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/port_undef.inc
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/reflection.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/reflection_ops.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/repeated_field.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/repeated_ptr_field.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/service.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/source_context.pb.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/struct.pb.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/bytestream.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/callback.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/casts.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/common.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/hash.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/logging.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/macros.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/map_util.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/mutex.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/once.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/platform_macros.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/port.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/status.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/stl_util.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/stringpiece.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/strutil.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/stubs/template_util.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/text_format.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/timestamp.pb.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/type.pb.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/unknown_field_set.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/util/delimited_message_util.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/util/field_comparator.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/util/field_mask_util.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/util/json_util.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/util/message_differencer.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/util/time_util.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/util/type_resolver.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/util/type_resolver_util.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/wire_format.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/wire_format_lite.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/wrappers.pb.h
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/any.proto
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/api.proto
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/plugin.proto
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/descriptor.proto
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/duration.proto
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/empty.proto
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/field_mask.proto
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/source_context.proto
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/struct.proto
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/timestamp.proto
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/type.proto
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/wrappers.proto
+  -- Up-to-date: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/any.proto
+  -- Up-to-date: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/api.proto
+  -- Up-to-date: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/compiler/plugin.proto
+  -- Up-to-date: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/descriptor.proto
+  -- Up-to-date: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/duration.proto
+  -- Up-to-date: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/empty.proto
+  -- Up-to-date: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/field_mask.proto
+  -- Up-to-date: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/source_context.proto
+  -- Up-to-date: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/struct.proto
+  -- Up-to-date: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/timestamp.proto
+  -- Up-to-date: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/type.proto
+  -- Up-to-date: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/include/google/protobuf/wrappers.proto
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/cmake/protobuf-targets.cmake
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/cmake/protobuf-targets-debug.cmake
+  -- Up-to-date: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/cmake
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/cmake/protobuf-config-version.cmake
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/cmake/protobuf-config.cmake
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/cmake/protobuf-module.cmake
+  -- Installing: C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/cmake/protobuf-options.cmake
+cargo:root=C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out
+cargo:rustc-env=PROTOC=C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\bin\protoc
+cargo:rustc-env=PROTOC_INCLUDE=C:\Users\rizki\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\include
+cargo:rerun-if-env-changed=PROTOC
+cargo:rerun-if-env-changed=PROTOC_INCLUDE

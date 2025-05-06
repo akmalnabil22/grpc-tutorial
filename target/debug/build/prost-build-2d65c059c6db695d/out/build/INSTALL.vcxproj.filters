@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Semester 4\progjut\grpc-tutorial\target\debug\build\prost-build-2d65c059c6db695d\out\build\CMakeFiles\536a3eee9c85ef040d14f0e3da03d543\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4A6C2710-8AE2-3632-9BC1-7538177E999B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

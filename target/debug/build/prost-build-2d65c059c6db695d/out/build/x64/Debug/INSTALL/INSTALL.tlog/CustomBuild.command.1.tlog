@@ -1,0 +1,10 @@
+^C:\SEMESTER 4\PROGJUT\GRPC-TUTORIAL\TARGET\DEBUG\BUILD\PROST-BUILD-2D65C059C6DB695D\OUT\BUILD\CMAKEFILES\536A3EEE9C85EF040D14F0E3DA03D543\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

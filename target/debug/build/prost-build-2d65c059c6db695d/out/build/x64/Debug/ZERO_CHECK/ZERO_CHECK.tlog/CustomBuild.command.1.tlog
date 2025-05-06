@@ -1,0 +1,10 @@
+^C:\SEMESTER 4\PROGJUT\GRPC-TUTORIAL\TARGET\DEBUG\BUILD\PROST-BUILD-2D65C059C6DB695D\OUT\BUILD\CMAKEFILES\536A3EEE9C85EF040D14F0E3DA03D543\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/rizki/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/cmake "-BC:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Semester 4/progjut/grpc-tutorial/target/debug/build/prost-build-2d65c059c6db695d/out/build/protobuf.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
